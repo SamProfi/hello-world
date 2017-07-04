@@ -1,0 +1,22 @@
+div.main_header {
+    color: beige;
+    background: #8b89dbcc;
+    text-align: center;
+}
+
+small.main_header{
+    color: #524453;
+}
+
+h1.main_header {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+p.img_center {
+    text-align: center;
+}
+
+div.o_content {
+    margin-top: 10px;
+}

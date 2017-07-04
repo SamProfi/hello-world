@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Главная</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-12">
+<!-- Header -  название образовательной организации и горизонтальная навигация-->
+        <h1 class="main_header"><small class="main_header">МУНИЦИПАЛЬНОЕ БЮДЖЕТНОЕ ОБЩЕОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ</small><br>"ТАШТЫПСКАЯ  СРЕДНЯЯ ОБЩЕОБРАЗОВАТЕЛЬНАЯ ШКОЛА-ИНТЕРНАТ №1 ИМЕНИ Л.А. ТРЕТЬЯКОВОЙ"</h1>
+         </div>
+      </div>
+    </div>
+    
+<!-- основной контент -->
+    <div class="row o_content">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+<!-- Навигация по сайту -->         
+          <div class="panel panel-default">
+            <div class="panel-body">
+             <ul class="nav nav-pills nav-stacked">
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Сведения об образовательной организации</a></li>
+              <li><a href="#">Олимпиады</a></li>
+              <li><a href="#">ГИА</a></li>
+              <li><a href="#">Обучающимся</a></li>
+              <li><a href="#">Учителям</a></li>
+              <li><a href="#">Родителям</a></li>
+              <li><a href="#">Безопасность на дороге</a></li>
+             </ul>
+            </div>
+          </div>
+        </div>
+<!-- Основной контент -->
+        <div class="col-md-7">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Главная</h3>
+          </div>
+          <div class="panel-body">
+           <!-- Слайдер из фоток, фотки надо хорошо обрабатывать и точно подрезать -->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <!-- Маркеры слайдов -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  </ol>
+ 
+                  <!-- Содержимое слайдов -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <p class="img_center"><img src="images/slider/1.jpg" alt="..."></p>
+                    </div>
+                     
+                    <div class="item">
+                      <p class="img_center"><img src="images/slider/2.jpg" alt="..."></p>
+                    </div>
+                     
+                    <div class="item">
+                      <p class="img_center"><img src="images/slider/3.jpg" alt="..."></p>
+                    </div>
+                  </div>
+ 
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+            Контент
+          </div>
+</div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.12.4.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
