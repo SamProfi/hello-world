@@ -19,6 +19,8 @@ p.img_center {
 
 div.o_content {
     margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #context_menu {
@@ -29,4 +31,10 @@ div.o_content {
     border-left: 4px solid;
     border-bottom: 4px solid transparent;
     border-top: 4px solid transparent;
+}
+
+div.main_footer {
+    color: beige;
+    background: #8b89dbcc;
+    text-align: center;
 }
