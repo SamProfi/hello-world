@@ -17,8 +17,15 @@ p.img_center {
     text-align: center;
 }
 
-div.o_content {
+div.o_navbar {
     margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.o_content {
+    margin-top: 0px;
     margin-right: auto;
     margin-left: auto;
 }

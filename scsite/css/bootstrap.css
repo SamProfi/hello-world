@@ -272,7 +272,7 @@ th {
   display: inline-block;
   font-family: 'Glyphicons Halflings';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 200;
   line-height: 1;
 
   -webkit-font-smoothing: antialiased;
@@ -4166,7 +4166,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -4274,8 +4274,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 15px 15px;
-  font-size: 18px;
+  padding: 5px 5px 5px 20px;
+  font-size: 40px;
   line-height: 20px;
 }
 .navbar-brand:hover,
@@ -4497,7 +4497,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
-  color: #777;
+  color: #704E77;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
