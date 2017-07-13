@@ -3433,10 +3433,11 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-lg,
 .btn-group-lg > .btn {
-  padding: 10px 16px;
+  padding: 4px 16px;
   font-size: 18px;
   line-height: 1.3333333;
   border-radius: 6px;
+  margin-top: -7px;
 }
 .btn-sm,
 .btn-group-sm > .btn {
@@ -4274,7 +4275,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 5px 5px 5px 20px;
+  padding: 5px 18px 5px 20px;
   font-size: 40px;
   line-height: 20px;
 }
@@ -4497,7 +4498,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
-  color: #704E77;
+  color: #6E1980;
+  background: #cac9d8cc;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {

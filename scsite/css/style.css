@@ -13,6 +13,10 @@ h1.main_header {
     margin-top: 10px;
 }
 
+h3.o_content_title {
+    display: inline-block;
+}
+
 p.img_center {
     text-align: center;
 }
