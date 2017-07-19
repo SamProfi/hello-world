@@ -32,22 +32,25 @@
 
 <!-- Навигация -->
     <div class="row o_navbar">
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
+        <div class="col-xs-0 col-sm-0 col-md-1 col-lg-2"></div>
+        <div class="col-xs-0 col-sm-0 col-md-10 col-lg-8">
             <nav class="navbar navbar-default" role="navigation">
               <div class="container-fluid">
                 <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" title="Открыть меню">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
+                      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-eye-open"></span></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <form class="navbar-form navbar-left" role="search">
+                 <button type="button" class="btn btn-default navbar-btn" id="btn_vds">Версия для слабовидящих</button>
+
+                  <form class="navbar-form navbar-right" role="search">
                     <div class="form-group">
                       <input type="text" class="form-control" placeholder="Поиск">
                     </div>
@@ -57,13 +60,13 @@
               </div><!-- /.container-fluid -->
             </nav>
         </div>
-        <div class="col-md-"1></div>
+        <div class="col-xs-0 col-sm-0 col-md-1 col-lg-2"></div>
     </div>
 
 <!-- основной контент -->
     <div class="row o_content">
-        <div class="col-md-1"></div>
-        <div class="col-md-3">
+        <div class="col-sm-0 col-md-1 col-lg-2"></div>
+        <div class="col-sm-4 col-md-3 col-lg-3">
 <!-- Навигация по сайту -->         
           <div class="panel panel-default">
             <div class="panel-body">
@@ -126,12 +129,13 @@
           </div>
         </div>
 <!-- Основной контент -->
-        <div class="col-md-7">
+        <div class="col-sm-8 col-md-7 col-lg-5">
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h3 class="panel-title o_content_title">Главная</h3><button type="button" class="btn btn-default pull-right btn-lg"><span class="glyphicon glyphicon-eye-open"></span> Версия для слабовидящих</button>
+            <h3 class="panel-title o_content_title">Главная</h3>
+            <button type="button" class="btn btn-default btn-xs pull-right">Печать</button>
           </div>
-          <div class="panel-body">
+          <div class="panel-body panel_content">
            <!-- Слайдер из фоток, фотки надо хорошо обрабатывать и точно подрезать -->
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                   <!-- Маркеры слайдов -->
@@ -168,7 +172,7 @@
           </div>
         </div>
         </div>
-        <div class="col-md-1"></div>
+        <div class="col-sm-0 col-md-1 col-lg-2"></div>
     </div>
     
 <!-- Подвал -->
