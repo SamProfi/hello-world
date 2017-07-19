@@ -72,3 +72,9 @@ div.main_footer {
     background: #8b89dbcc;
     text-align: center;
 }
+
+/* index styles */
+
+p.quote_author {
+    text-align: right;
+}
